@@ -1,0 +1,263 @@
+{
+  "case": "replenishing_plus",
+  "seed": 44,
+  "status": "tolerances_met",
+  "episodes": 16000,
+  "training_transitions": 1600000,
+  "training_violations": 0,
+  "history": [
+    {
+      "minimum_visits": 75,
+      "relative_q_error": 0.0899208061626784,
+      "relative_bellman_residual": 0.049878946981352125,
+      "policy_agreement": 0.9802197802197802,
+      "maximum_policy_value_gap": 463.74160610943,
+      "relative_policy_value_gap": 0.02257099963001457,
+      "initial_policy_value": 11183.02032894292,
+      "initial_value_gap": 1.5170507814982557,
+      "maximum_action_regret": 460.9295205770395,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 1.0,
+      "episode": 2000,
+      "transitions": 200000,
+      "passes_criteria": false,
+      "consecutive_passes": 0
+    },
+    {
+      "minimum_visits": 173,
+      "relative_q_error": 0.06141797625696142,
+      "relative_bellman_residual": 0.03744308737782254,
+      "policy_agreement": 0.978021978021978,
+      "maximum_policy_value_gap": 350.25765560132277,
+      "relative_policy_value_gap": 0.01704756552104948,
+      "initial_policy_value": 11185.754973073044,
+      "initial_value_gap": 4.251694911623417,
+      "maximum_action_regret": 345.4581873134339,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.024175824175824177,
+      "episode": 4000,
+      "transitions": 400000,
+      "passes_criteria": false,
+      "consecutive_passes": 0
+    },
+    {
+      "minimum_visits": 258,
+      "relative_q_error": 0.042357093172262106,
+      "relative_bellman_residual": 0.026823563217419744,
+      "policy_agreement": 0.9846153846153847,
+      "maximum_policy_value_gap": 329.9826356044359,
+      "relative_policy_value_gap": 0.016060749883161075,
+      "initial_policy_value": 11183.550197477065,
+      "initial_value_gap": 2.046919315644118,
+      "maximum_action_regret": 326.7267716683273,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.01978021978021978,
+      "episode": 6000,
+      "transitions": 600000,
+      "passes_criteria": true,
+      "consecutive_passes": 1
+    },
+    {
+      "minimum_visits": 369,
+      "relative_q_error": 0.03839457548595454,
+      "relative_bellman_residual": 0.02642473473806741,
+      "policy_agreement": 0.9857142857142858,
+      "maximum_policy_value_gap": 330.42057856576866,
+      "relative_policy_value_gap": 0.016082065224049154,
+      "initial_policy_value": 11184.089218703155,
+      "initial_value_gap": 2.5859405417340895,
+      "maximum_action_regret": 326.7267716683273,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.014285714285714285,
+      "episode": 8000,
+      "transitions": 800000,
+      "passes_criteria": true,
+      "consecutive_passes": 2
+    },
+    {
+      "minimum_visits": 470,
+      "relative_q_error": 0.032259574335517904,
+      "relative_bellman_residual": 0.022799159289579603,
+      "policy_agreement": 0.989010989010989,
+      "maximum_policy_value_gap": 327.6499430352378,
+      "relative_policy_value_gap": 0.015947214236536594,
+      "initial_policy_value": 11181.520849605447,
+      "initial_value_gap": 0.01757144402654376,
+      "maximum_action_regret": 326.7267992057168,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.020879120879120878,
+      "episode": 10000,
+      "transitions": 1000000,
+      "passes_criteria": false,
+      "consecutive_passes": 0
+    },
+    {
+      "minimum_visits": 570,
+      "relative_q_error": 0.02834653239293865,
+      "relative_bellman_residual": 0.020776637536531216,
+      "policy_agreement": 0.9967032967032967,
+      "maximum_policy_value_gap": 189.54726965803275,
+      "relative_policy_value_gap": 0.009225549954886251,
+      "initial_policy_value": 11181.503278161781,
+      "initial_value_gap": 3.601599019020796e-10,
+      "maximum_action_regret": 189.34584370259472,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.007692307692307693,
+      "episode": 12000,
+      "transitions": 1200000,
+      "passes_criteria": true,
+      "consecutive_passes": 1
+    },
+    {
+      "minimum_visits": 684,
+      "relative_q_error": 0.03172292642988838,
+      "relative_bellman_residual": 0.024806938990298306,
+      "policy_agreement": 0.9945054945054945,
+      "maximum_policy_value_gap": 134.63400490989443,
+      "relative_policy_value_gap": 0.006552838983982666,
+      "initial_policy_value": 11182.123716192207,
+      "initial_value_gap": 0.6204380307863175,
+      "maximum_action_regret": 134.22803687622945,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.006593406593406593,
+      "episode": 14000,
+      "transitions": 1400000,
+      "passes_criteria": true,
+      "consecutive_passes": 2
+    },
+    {
+      "minimum_visits": 784,
+      "relative_q_error": 0.02447909965982198,
+      "relative_bellman_residual": 0.018357357364723385,
+      "policy_agreement": 0.9934065934065934,
+      "maximum_policy_value_gap": 192.4437495576385,
+      "relative_policy_value_gap": 0.009366525976621336,
+      "initial_policy_value": 11181.503279315546,
+      "initial_value_gap": 1.1541251296875998e-06,
+      "maximum_action_regret": 192.14551193169973,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.007692307692307693,
+      "episode": 16000,
+      "transitions": 1600000,
+      "passes_criteria": true,
+      "consecutive_passes": 3
+    }
+  ],
+  "replacement_regions": {
+    "0": [
+      [
+        35,
+        42
+      ],
+      [
+        68,
+        70
+      ]
+    ],
+    "1": [
+      [
+        66,
+        70
+      ]
+    ],
+    "2": [
+      [
+        64,
+        64
+      ],
+      [
+        66,
+        70
+      ]
+    ],
+    "3": [
+      [
+        65,
+        65
+      ],
+      [
+        67,
+        70
+      ]
+    ],
+    "4": [
+      [
+        65,
+        70
+      ]
+    ],
+    "5": [
+      [
+        65,
+        70
+      ]
+    ],
+    "6": [
+      [
+        64,
+        70
+      ]
+    ],
+    "7": [
+      [
+        65,
+        70
+      ]
+    ],
+    "8": [
+      [
+        65,
+        70
+      ]
+    ],
+    "9": [
+      [
+        65,
+        70
+      ]
+    ],
+    "10": [
+      [
+        65,
+        70
+      ]
+    ],
+    "11": [
+      [
+        65,
+        70
+      ]
+    ],
+    "12": [
+      [
+        65,
+        70
+      ]
+    ]
+  },
+  "configuration": {
+    "states": 70,
+    "capacity": 12,
+    "cases": [
+      "baseline",
+      "depleting",
+      "replenishing",
+      "replenishing_plus"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "steps": 100,
+    "max_episodes": 100000,
+    "check_every": 2000,
+    "min_visits": 200,
+    "patience": 3,
+    "alpha_exponent": 0.8,
+    "policy_tolerance": 0.02,
+    "minimum_policy_agreement": 0.98,
+    "change_tolerance": 0.02,
+    "output_dir": "/Users/venkatanath18/Desktop/research/RL/phase5/results_n70_b12"
+  }
+}

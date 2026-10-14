@@ -1,0 +1,229 @@
+{
+  "case": "depleting",
+  "seed": 43,
+  "status": "tolerances_met",
+  "episodes": 12000,
+  "training_transitions": 1200000,
+  "training_violations": 0,
+  "history": [
+    {
+      "minimum_visits": 71,
+      "relative_q_error": 0.08960093990875749,
+      "relative_bellman_residual": 0.050392552458682065,
+      "policy_agreement": 0.9769230769230769,
+      "maximum_policy_value_gap": 756.7227846239948,
+      "relative_policy_value_gap": 0.03475491596689964,
+      "initial_policy_value": 11185.765127806239,
+      "initial_value_gap": 4.197019440973236,
+      "maximum_action_regret": 732.2577953106484,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 1.0,
+      "episode": 2000,
+      "transitions": 200000,
+      "passes_criteria": false,
+      "consecutive_passes": 0
+    },
+    {
+      "minimum_visits": 172,
+      "relative_q_error": 0.056025671511484625,
+      "relative_bellman_residual": 0.036360755945453065,
+      "policy_agreement": 0.9857142857142858,
+      "maximum_policy_value_gap": 376.50787505203334,
+      "relative_policy_value_gap": 0.017292329270634257,
+      "initial_policy_value": 11182.281144972107,
+      "initial_value_gap": 0.7130366068413423,
+      "maximum_action_regret": 373.30250882158725,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.02857142857142857,
+      "episode": 4000,
+      "transitions": 400000,
+      "passes_criteria": false,
+      "consecutive_passes": 0
+    },
+    {
+      "minimum_visits": 274,
+      "relative_q_error": 0.040380228036975524,
+      "relative_bellman_residual": 0.02671998636671794,
+      "policy_agreement": 0.9846153846153847,
+      "maximum_policy_value_gap": 478.031947507101,
+      "relative_policy_value_gap": 0.021955147251655604,
+      "initial_policy_value": 11183.008623642538,
+      "initial_value_gap": 1.440515277272425,
+      "maximum_action_regret": 473.737840802085,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.01868131868131868,
+      "episode": 6000,
+      "transitions": 600000,
+      "passes_criteria": false,
+      "consecutive_passes": 0
+    },
+    {
+      "minimum_visits": 367,
+      "relative_q_error": 0.03332312376839944,
+      "relative_bellman_residual": 0.02173180711276984,
+      "policy_agreement": 0.9868131868131869,
+      "maximum_policy_value_gap": 271.6152106866466,
+      "relative_policy_value_gap": 0.012474797924099421,
+      "initial_policy_value": 11182.787290246162,
+      "initial_value_gap": 1.2191818808969401,
+      "maximum_action_regret": 270.3787922133706,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.013186813186813187,
+      "episode": 8000,
+      "transitions": 800000,
+      "passes_criteria": true,
+      "consecutive_passes": 1
+    },
+    {
+      "minimum_visits": 460,
+      "relative_q_error": 0.027586156881296852,
+      "relative_bellman_residual": 0.019688148477785078,
+      "policy_agreement": 0.9857142857142858,
+      "maximum_policy_value_gap": 249.8176445321842,
+      "relative_policy_value_gap": 0.011473674929821267,
+      "initial_policy_value": 11182.696715867447,
+      "initial_value_gap": 1.1286075021816941,
+      "maximum_action_regret": 244.27799838738792,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.00989010989010989,
+      "episode": 10000,
+      "transitions": 1000000,
+      "passes_criteria": true,
+      "consecutive_passes": 2
+    },
+    {
+      "minimum_visits": 565,
+      "relative_q_error": 0.02741873915523396,
+      "relative_bellman_residual": 0.020695213007684905,
+      "policy_agreement": 0.989010989010989,
+      "maximum_policy_value_gap": 207.4058238581856,
+      "relative_policy_value_gap": 0.00952577631558771,
+      "initial_policy_value": 11182.78957004289,
+      "initial_value_gap": 1.2214616776254843,
+      "maximum_action_regret": 207.23485377480029,
+      "unsafe_actions": 0,
+      "policy_change_fraction": 0.014285714285714285,
+      "episode": 12000,
+      "transitions": 1200000,
+      "passes_criteria": true,
+      "consecutive_passes": 3
+    }
+  ],
+  "replacement_regions": {
+    "0": [
+      [
+        35,
+        70
+      ]
+    ],
+    "1": [
+      [
+        56,
+        70
+      ]
+    ],
+    "2": [
+      [
+        61,
+        61
+      ],
+      [
+        63,
+        70
+      ]
+    ],
+    "3": [
+      [
+        64,
+        70
+      ]
+    ],
+    "4": [
+      [
+        64,
+        70
+      ]
+    ],
+    "5": [
+      [
+        65,
+        70
+      ]
+    ],
+    "6": [
+      [
+        65,
+        65
+      ],
+      [
+        67,
+        70
+      ]
+    ],
+    "7": [
+      [
+        67,
+        70
+      ]
+    ],
+    "8": [
+      [
+        66,
+        70
+      ]
+    ],
+    "9": [
+      [
+        65,
+        70
+      ]
+    ],
+    "10": [
+      [
+        64,
+        70
+      ]
+    ],
+    "11": [
+      [
+        64,
+        65
+      ],
+      [
+        67,
+        70
+      ]
+    ],
+    "12": [
+      [
+        65,
+        70
+      ]
+    ]
+  },
+  "configuration": {
+    "states": 70,
+    "capacity": 12,
+    "cases": [
+      "baseline",
+      "depleting",
+      "replenishing",
+      "replenishing_plus"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "steps": 100,
+    "max_episodes": 100000,
+    "check_every": 2000,
+    "min_visits": 200,
+    "patience": 3,
+    "alpha_exponent": 0.8,
+    "policy_tolerance": 0.02,
+    "minimum_policy_agreement": 0.98,
+    "change_tolerance": 0.02,
+    "output_dir": "/Users/venkatanath18/Desktop/research/RL/phase5/results_n70_b12"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "depleting": {
+    "seed": 2026,
+    "steps": 500,
+    "replacements": 146,
+    "minimum_budget": 0,
+    "final_budget": 0,
+    "first_zero_step": 42
+  },
+  "replenishing": {
+    "seed": 2026,
+    "steps": 500,
+    "replacements": 15,
+    "minimum_budget": 1,
+    "final_budget": 10,
+    "first_zero_step": null
+  },
+  "replenishing_plus": {
+    "seed": 2026,
+    "steps": 500,
+    "replacements": 15,
+    "minimum_budget": 10,
+    "final_budget": 12,
+    "first_zero_step": null
+  }
+}

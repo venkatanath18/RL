@@ -1,0 +1,330 @@
+{
+  "baseline": {
+    "config": {
+      "case": "baseline",
+      "states": 70,
+      "capacity": 12,
+      "gamma": 0.7,
+      "replacement_charge": 9000.0
+    },
+    "iterations": 83,
+    "bellman_residual": 6.366462912410498e-10,
+    "value_error_bound": 2.1221543041368323e-09,
+    "policy_evaluation_error": 7.275957614183426e-12,
+    "initial_state": 1,
+    "initial_budget": 0,
+    "initial_value": 11181.503278160773,
+    "replacement_regions": {
+      "0": [
+        [
+          65,
+          70
+        ]
+      ]
+    },
+    "unsafe_actions": 0,
+    "value_budget_monotonicity_violations": 0,
+    "continuation_nesting_violations": 0
+  },
+  "depleting": {
+    "config": {
+      "case": "depleting",
+      "states": 70,
+      "capacity": 12,
+      "gamma": 0.7,
+      "replacement_charge": 9000.0
+    },
+    "iterations": 84,
+    "bellman_residual": 5.129550117999315e-10,
+    "value_error_bound": 1.7098500393331049e-09,
+    "policy_evaluation_error": 0.0,
+    "initial_state": 1,
+    "initial_budget": 12,
+    "initial_value": 11181.568108365265,
+    "replacement_regions": {
+      "0": [
+        [
+          35,
+          70
+        ]
+      ],
+      "1": [
+        [
+          57,
+          70
+        ]
+      ],
+      "2": [
+        [
+          62,
+          70
+        ]
+      ],
+      "3": [
+        [
+          64,
+          70
+        ]
+      ],
+      "4": [
+        [
+          64,
+          70
+        ]
+      ],
+      "5": [
+        [
+          65,
+          70
+        ]
+      ],
+      "6": [
+        [
+          65,
+          70
+        ]
+      ],
+      "7": [
+        [
+          65,
+          70
+        ]
+      ],
+      "8": [
+        [
+          65,
+          70
+        ]
+      ],
+      "9": [
+        [
+          65,
+          70
+        ]
+      ],
+      "10": [
+        [
+          65,
+          70
+        ]
+      ],
+      "11": [
+        [
+          65,
+          70
+        ]
+      ],
+      "12": [
+        [
+          65,
+          70
+        ]
+      ]
+    },
+    "unsafe_actions": 0,
+    "value_budget_monotonicity_violations": 0,
+    "continuation_nesting_violations": 0
+  },
+  "replenishing": {
+    "config": {
+      "case": "replenishing",
+      "states": 70,
+      "capacity": 12,
+      "gamma": 0.7,
+      "replacement_charge": 9000.0
+    },
+    "iterations": 83,
+    "bellman_residual": 6.439222488552332e-10,
+    "value_error_bound": 2.1464074961841102e-09,
+    "policy_evaluation_error": 1.0913936421275139e-11,
+    "initial_state": 1,
+    "initial_budget": 12,
+    "initial_value": 11181.505462496703,
+    "replacement_regions": {
+      "0": [
+        [
+          35,
+          70
+        ]
+      ],
+      "1": [
+        [
+          59,
+          70
+        ]
+      ],
+      "2": [
+        [
+          63,
+          70
+        ]
+      ],
+      "3": [
+        [
+          64,
+          70
+        ]
+      ],
+      "4": [
+        [
+          65,
+          70
+        ]
+      ],
+      "5": [
+        [
+          65,
+          70
+        ]
+      ],
+      "6": [
+        [
+          65,
+          70
+        ]
+      ],
+      "7": [
+        [
+          65,
+          70
+        ]
+      ],
+      "8": [
+        [
+          65,
+          70
+        ]
+      ],
+      "9": [
+        [
+          65,
+          70
+        ]
+      ],
+      "10": [
+        [
+          65,
+          70
+        ]
+      ],
+      "11": [
+        [
+          65,
+          70
+        ]
+      ],
+      "12": [
+        [
+          65,
+          70
+        ]
+      ]
+    },
+    "unsafe_actions": 0,
+    "value_budget_monotonicity_violations": 0,
+    "continuation_nesting_violations": 0
+  },
+  "replenishing_plus": {
+    "config": {
+      "case": "replenishing_plus",
+      "states": 70,
+      "capacity": 12,
+      "gamma": 0.7,
+      "replacement_charge": 9000.0
+    },
+    "iterations": 83,
+    "bellman_residual": 6.421032594516873e-10,
+    "value_error_bound": 2.140344198172291e-09,
+    "policy_evaluation_error": 1.0913936421275139e-11,
+    "initial_state": 1,
+    "initial_budget": 12,
+    "initial_value": 11181.50327816142,
+    "replacement_regions": {
+      "0": [
+        [
+          35,
+          42
+        ],
+        [
+          67,
+          70
+        ]
+      ],
+      "1": [
+        [
+          65,
+          70
+        ]
+      ],
+      "2": [
+        [
+          65,
+          70
+        ]
+      ],
+      "3": [
+        [
+          65,
+          70
+        ]
+      ],
+      "4": [
+        [
+          65,
+          70
+        ]
+      ],
+      "5": [
+        [
+          65,
+          70
+        ]
+      ],
+      "6": [
+        [
+          65,
+          70
+        ]
+      ],
+      "7": [
+        [
+          65,
+          70
+        ]
+      ],
+      "8": [
+        [
+          65,
+          70
+        ]
+      ],
+      "9": [
+        [
+          65,
+          70
+        ]
+      ],
+      "10": [
+        [
+          65,
+          70
+        ]
+      ],
+      "11": [
+        [
+          65,
+          70
+        ]
+      ],
+      "12": [
+        [
+          65,
+          70
+        ]
+      ]
+    },
+    "unsafe_actions": 0,
+    "value_budget_monotonicity_violations": 0,
+    "continuation_nesting_violations": 2
+  }
+}
